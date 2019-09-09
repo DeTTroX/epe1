@@ -30,6 +30,29 @@ header, nav, section, article, aside, footer{
     display: block;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+table, th, td {
+    border: 1px solid green;
+  }
+
+td{
+    height: 50px;
+    text-align: center
+}  
+
+  #titulo {
+    text-align: center;
+    height: 70px
+  }
+
 /*
     4.- ¿Para qué se utiliza text-align: center?
 */
