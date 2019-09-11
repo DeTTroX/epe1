@@ -160,6 +160,11 @@ body{
     scrollbar-color: darkgreen black;
 }
 
+#seccion th, td{
+    border: 4px solid rgb(1, 136, 30);
+    border-style: double;
+}
+
 /*
     12.- ¿Por qué margin tiene dos valores (20px 0px) y cuantos valores puede tener?
 */
@@ -175,9 +180,21 @@ body{
     position: relative; bottom: 405px; left: 42px;
 }
 
-#columna ol li a{
+#columna li:hover{
+    background-color: rgba(0, 255, 0, 0.1);;
+   padding: 10px;
+   transition: 1s all;
+}
+
+#columna li a{
     text-decoration: none;
-    color: gray;
+    color:  green;
+    text-shadow: 4px 4px #000000;
+}
+
+#columna ol{
+    text-decoration: none;
+    color: green;
 }
 
 #videito1{
