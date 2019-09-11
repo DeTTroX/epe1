@@ -111,6 +111,7 @@ body{
     padding: 20px;
     background-color: rgba(4, 39, 4, 0.3);
     text-align: center;
+    background: url(../imagenes/Alien-Vortex.jpg)
 
 }
 
@@ -132,8 +133,9 @@ body{
 #barra_navegacion li a{
     
     text-decoration: none;
-    color: gray;
+    color: rgb(43, 255, 0);
     padding: 30px;
+    text-shadow: 2px 2px black;
     
 }
 /*
