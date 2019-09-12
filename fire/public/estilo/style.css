@@ -1,0 +1,236 @@
+/*
+    Responda las siguientes preguntas.
+*/
+
+/*
+    1.- ¿Cuál es la diferencia entre id y class?
+*/
+
+/*
+    2.- ¿Qué sucede entre las líneas 12 y 15?
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+/*
+    3.- ¿Para qué nos sirve diplay: block?
+*/
+
+header, nav, section, article, aside, footer{
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+table, th, td {
+    border: 1px solid green;
+  }
+
+td{
+    height: 50px;
+    text-align: center
+}  
+
+  #titulo {
+    text-align: center;
+    height: 70px
+  }
+
+/*
+    4.- ¿Para qué se utiliza text-align: center?
+*/
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    background: url(../imagenes/backgroundufo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+/*
+    5.- ¿Para qué se está utilizando el identificado #caja_principal?
+*/
+#caja_principal{
+    width: 900px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+/*
+    6.- ¿Qué es padding y para qué se utiliza?
+*/
+#cabecera{
+    background: #0002;
+    border: 2px solid #054708;
+    color: transparent;
+    text-shadow: 0 0 4px rgba(9, 117, 9, 0.9);
+    margin: 0;
+    height: 70px;
+    font-weight: 800;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#logo{
+    position: relative; bottom: 40px; right: 380px;
+}
+
+
+/*
+    7.- ¿Para qué nos sirve border, y cómo se utiliza?
+*/
+
+#barra_navegacion{
+    background: rgb(0, 0, 0);
+    color: rgb(8, 58, 8);
+    border: 2px solid darkgreen;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(4, 39, 4, 0.3);
+    text-align: center;
+    background: url(../imagenes/Alien-Vortex.jpg)
+
+}
+
+/*
+    8.- ¿Para qué nos sirve display: inline-block y list-style?
+*/
+#barra_navegacion li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    transition: 1s all;
+}
+
+#barra_navegacion li:hover{
+   background-color: rgba(0, 255, 0, 0.1);;
+   padding: 10px;
+}
+
+#barra_navegacion li a{
+    
+    text-decoration: none;
+    color: rgb(43, 255, 0);
+    padding: 30px;
+    text-shadow: 2px 2px black;
+    
+}
+/*
+    9.- ¿Comó afecta la propiedad "float" en los elementos (etiquetas o selectores) html?
+
+    10.- ¿Qué es margin y para qué se utiliza?
+
+    11.- ¿Para qué se utiliza la propiedad background?
+*/
+
+#seccion{
+    float: left;
+    border: 2px solid #054708;
+    width: 580px;
+    height: 300px;
+    margin: 20px;
+    background: #0004;
+    color: rgb(177, 177, 177);
+    padding: 20px;
+    position: relative; bottom: 20px; right: 20px;
+    overflow-y: scroll;
+    scrollbar-color: darkgreen black;
+}
+
+#widget{
+    position: relative; top: 200px; right: 10px;
+}
+
+#seccion th, td{
+    border: 4px solid rgb(1, 136, 30);
+    border-style: double;
+}
+
+/*
+    12.- ¿Por qué margin tiene dos valores (20px 0px) y cuantos valores puede tener?
+*/
+
+#columna{
+    border: 2px solid darkgreen;
+    float: right;
+    width: 200px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #0002;
+    color: gray;
+    position: relative; bottom: 405px; left: 42px;
+}
+
+#columna li:hover{
+    background-color: rgba(0, 255, 0, 0.1);;
+   padding: 10px;
+   transition: 1s all;
+}
+
+#columna li a{
+    text-decoration: none;
+    color:  green;
+    text-shadow: 4px 4px #000000;
+}
+
+#columna ol{
+    text-decoration: none;
+    color: green;
+}
+
+#videito1{
+    position: relative; bottom: 400px; left: 370px;
+}
+
+#videito2{
+    position: relative; bottom: 400px; left: 370px;
+}
+
+/*
+    13.-¿Para qué se utiliza clear: both y border-top?
+*/
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid darkgreen;
+    color: #ffffff;
+}
+
+/*
+    14.-¿Qué es CSS?
+    
+    15.- Mencione las tres formas de añadir CSS a un documento HTML.
+*/
